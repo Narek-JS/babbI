@@ -24,8 +24,43 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Babbl – AI-Powered Speaking Doll",
+  description:
+    "Babbl is an AI-powered interactive doll that engages your child in conversation. Configure the doll’s voice, monitor interactions, and review chat history—all through the companion app.",
+  keywords: [
+    "AI doll",
+    "interactive toy",
+    "smart doll",
+    "child development",
+    "parental controls",
+    "doll configuration",
+    "chat history",
+    "AI-powered speaking doll",
+  ],
+  openGraph: {
+    title: "Babbl – AI-Powered Speaking Doll",
+    description:
+      "An interactive doll that talks with your child using AI. Customize settings, review chat history, and manage interactions effortlessly.",
+    siteName: "Babbl",
+
+    url: "https://babbi.vercel.app",
+    images: [
+      {
+        url: "https://babbi.vercel.app/images/bannerImage.webp",
+        width: 1200,
+        height: 630,
+        alt: "Babbl AI Doll",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Babbl – AI-Powered Speaking Doll",
+    description:
+      "Talk, configure, and monitor: Babbl is a smart doll that interacts with your child through AI.",
+    images: ["https://babbi.vercel.app/images/bannerImage.webp"],
+  },
 };
 
 interface Props {
