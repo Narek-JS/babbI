@@ -4,17 +4,6 @@ import Link from "next/link";
 
 const Banner: React.FC = () => (
   <div className="w-full py-5 flex flex-col gap-14" id="home">
-    <div className="flex items-center gap-1.5">
-      <Image
-        className="w-[35px] h-[35px]"
-        src="/images/logo.webp"
-        alt={CONTENT.LOGO_ALT}
-        height={35}
-        width={35}
-      />
-      <span className="text-[#FFFFFF] text-[22px]">{CONTENT.LOGO_TEXT}</span>
-    </div>
-
     <div className="flex justify-between">
       <Image
         alt={CONTENT.BANNER_IMAGE_ALT}

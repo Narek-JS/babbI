@@ -1,7 +1,6 @@
 const CONTENT = {
   // BANNER.
   LOGO_ALT: "Blue company logo with rounded font and icon, color #3875c0",
-  LOGO_TEXT: "babbI",
   BANNER_IMAGE_ALT:
     "3D cartoon girl character with brown pigtails and dress, on white background",
   TITLE: "AI-Powered Speaking Doll",

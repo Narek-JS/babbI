@@ -10,7 +10,7 @@ interface Props {
 }
 
 const LegalContent: React.FC<Props> = ({ content }) => (
-  <div className="max-w-3xl mx-auto flex flex-col gap-4">
+  <div className="max-w-3xl mx-auto flex flex-col gap-4 text-[#FFFFFF]">
     {content.map((item, index) => (
       <div key={index} className="flex flex-col gap-4">
         {item.TITLE && <h2 className="text-xl font-bold">{item.TITLE}</h2>}
