@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#262134] py-5" id="home">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center gap-12">
-          <div className="w-full flex gap-5 justify-evenly sm:justify-between">
+        <div className="flex flex-col items-center gap-8 sm:gap-12">
+          <div className="w-full flex flex-wrap sm:flex-nowrap gap-8 justify-evenly sm:justify-between">
             <div className="flex flex-col gap-3.5">
               <p className="text-[#FFFFFF] text-[16px] sm:text-[20px] md:text-[24px] lg:text-[26px] font-bold">
                 Our Story
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
                 Terms & Conditions
               </Link>
             </div>
-            <div className="hidden sm:flex flex-col gap-3.5">
+            <div className="flex flex-col gap-3.5">
               <Link
                 className="max-w-fit cursor-pointer"
                 href="https://play.google.com/store/apps/details?id=com.facebook.katana"
@@ -95,11 +95,11 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center gap-5">
             <Link href="/#home" className="cursor-pointer">
               <Image
-                className="object-contain w-[122px] h-[41px]"
+                className="object-contain w-[250px] h-auto"
                 src="/images/logo.jpg"
                 alt="alt"
-                height={41}
-                width={122}
+                height={75}
+                width={250}
               />
             </Link>
 
