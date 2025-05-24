@@ -41,7 +41,10 @@ const Slider: React.FC = () => {
             Featured In
           </h2>
 
-          <div className="relative py-2.5 overflow-hidden" ref={emblaRef}>
+          <div
+            className="relative overflow-hidden before:content-['*'] before:absolute before:top-0 before:right-0 before:h-full before:w-[40px] before:bg-gradient-to-l before:from-[#171324] before:via-[#171324]/40 before:to-transparent before:z-50 after:content-['*'] after:absolute after:top-0 after:left-0 after:h-full after:w-[40px] after:bg-gradient-to-r after:from-[#171324] after:via-[#171324]/40 after:to-transparent after:z-50"
+            ref={emblaRef}
+          >
             <div className="flex gap-4 sm:gap-6 md:gap-8">
               {MATERIALS.map(({ ICON, TEXT }, index) => (
                 <div

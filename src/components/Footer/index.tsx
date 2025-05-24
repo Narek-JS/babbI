@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer className="w-full bg-[#262134] py-5" id="home">
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-8 sm:gap-12">
-          <div className="w-full flex flex-wrap sm:flex-nowrap gap-8 justify-evenly sm:justify-between">
+          <div className="w-full flex flex-wrap sm:flex-nowrap gap-8 justify-evenly sm:justify-between lg:justify-evenly">
             <div className="flex flex-col gap-3.5">
               <p className="text-[#FFFFFF] text-[16px] sm:text-[20px] md:text-[24px] lg:text-[26px] font-bold">
                 Our Story
