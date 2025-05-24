@@ -17,8 +17,8 @@ const Header: React.FC = () => (
               className="object-contain w-[122px] h-[41px]"
               src="/images/logo.jpg"
               alt={CONTENT.LOGO_ALT}
-              height={122}
-              width={41}
+              height={41}
+              width={122}
             />
           </Link>
 
