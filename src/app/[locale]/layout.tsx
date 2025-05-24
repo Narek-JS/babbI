@@ -107,7 +107,7 @@ const RootLayout: React.FC<Props> = async ({ children, params }) => {
           geistSans.variable,
           geistMono.variable,
           inter.variable,
-          "antialiased bg-[#090918]"
+          "antialiased"
         )}
       >
         <NextIntlClientProvider>

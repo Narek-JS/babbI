@@ -23,7 +23,7 @@ const LanguageSwitcher: FC = () => {
       </div>
       <div className="min-w-[40px] absolute top-full right-1/2 leading-none opacity-0 invisible translate-x-1/2 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
         <div className="bg-[#FFFFFF] rounded-md pt-[10px] px-2 pb-[1px] mt-2 flex flex-col items-center gap-[5px]">
-          <Link className="block mb-[8px]" locale="en" href="/">
+          <Link className="block mb-[8px]" locale="en" href="/en">
             <Image
               className="rounded-full"
               src="/flags/united-kingdom.svg"
