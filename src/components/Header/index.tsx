@@ -15,7 +15,7 @@ const Header: React.FC = () => (
           <Link href="/#home" className="cursor-pointer">
             <Image
               className="object-contain w-[122px] h-[41px]"
-              src="/images/logo.jpg"
+              src="/images/logo.png"
               alt={CONTENT.LOGO_ALT}
               height={41}
               width={122}

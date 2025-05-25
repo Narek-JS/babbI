@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
             <Link href="/#home" className="cursor-pointer">
               <Image
                 className="object-contain w-[250px] h-auto"
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt="alt"
                 height={75}
                 width={250}
