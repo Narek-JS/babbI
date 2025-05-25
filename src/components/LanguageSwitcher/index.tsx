@@ -1,15 +1,17 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { FC } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import classNames from "classnames";
 
-const LanguageSwitcher: FC = () => {
+const LanguageSwitcher: React.FC = () => {
   const locale = useLocale();
+  const [open, setOpen] = useState(false);
 
   return (
-    <div className="group relative">
+    <div className="group relative" onClick={() => setOpen(!open)}>
       <div className="flex items-center justify-center w-8 h-8 leading-none rounded-full bg-[#3b3b3b] cursor-pointer">
         <Image
           src={
@@ -21,7 +23,12 @@ const LanguageSwitcher: FC = () => {
           width={20}
         />
       </div>
-      <div className="min-w-[40px] absolute top-full right-1/2 leading-none opacity-0 invisible translate-x-1/2 transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+      <div
+        className={classNames(
+          "min-w-[40px] absolute top-full right-1/2 leading-none translate-x-1/2 transition-all duration-300",
+          { "opacity-100 visible": open, "opacity-0 invisible": !open }
+        )}
+      >
         <div className="bg-[#FFFFFF] rounded-md pt-[10px] px-2 pb-[1px] mt-2 flex flex-col items-center gap-[5px]">
           <Link className="block mb-[8px]" locale="en" href="/en">
             <Image
