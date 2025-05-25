@@ -3,7 +3,7 @@ import Image from "next/image";
 const ChatHistory: React.FC = () => (
   <section className="w-full bg-[#171324] py-5" id="chatHistory">
     <div className="container mx-auto">
-      <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-0 sm:gap-5">
+      <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-5">
         <div className="flex flex-col gap-4 md:gap-7 max-w-[600px]">
           <h2 className="text-[#FFFFFF] text-center sm:text-left tracking-normal sm:tracking-[0.7px] text-[28px] md:text-[44px] lg:text-[50px] font-semibold leading-tight">
             Chat History
