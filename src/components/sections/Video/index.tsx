@@ -1,5 +1,5 @@
 const Video: React.FC = () => (
-  <section className="w-full bg-[#171324] py-5" id="video">
+  <section className="w-full bg-[#171324] py-5 -my-10 sm:my-0" id="video">
     <div className="container mx-auto">
       <video
         poster="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"
