@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
                 Terms & Conditions
               </Link>
             </div>
-            <div className="flex flex-col gap-3.5">
+            <div className="hidden sm:flex flex-col gap-3.5">
               <Link
                 className="max-w-fit cursor-pointer"
                 href="https://play.google.com/store/apps/details?id=com.facebook.katana"
