@@ -22,16 +22,15 @@ const Header: React.FC = () => (
             />
           </Link>
 
-          <div className="flex items-center justify-center gap-2.5 sm:gap-[40px]">
+          <div className="flex items-center justify-center gap-3.5 sm:gap-[40px]">
             <Link href="/" className="text-[#FFFFFF] cursor-pointer">
               About Us
             </Link>
             <Link href="/" className="text-[#FFFFFF] cursor-pointer">
               Contact Us
             </Link>
+            <LanguageSwitcher />
           </div>
-
-          <LanguageSwitcher />
         </div>
       </div>
     </header>
