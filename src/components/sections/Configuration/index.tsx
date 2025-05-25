@@ -3,7 +3,7 @@ import Image from "next/image";
 const Configuration: React.FC = () => (
   <section className="w-full bg-[#171324] py-5" id="configuration">
     <div className="container mx-auto">
-      <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-5">
+      <div className="w-full flex flex-col-reverse sm:flex-row items-center justify-between gap-5">
         <Image
           alt="alt"
           className="object-contain max-w-[550px] min-w-[320px] md:min-w-[445px] w-full max-h-[600px]"
