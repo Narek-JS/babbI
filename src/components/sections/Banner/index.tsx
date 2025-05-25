@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Banner: React.FC = () => (
-  <section className="w-full bg-[#171324] py-5" id="home">
+  <section className="w-full bg-[#171324] pb-5 pt-7 lg:pt-13" id="home">
     <div className="container mx-auto">
       <div className="flex justify-evenly items-center">
         <Image
