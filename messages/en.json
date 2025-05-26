@@ -1,4 +1,16 @@
 {
+  "metadata": {
+    "title": "Babbl – AI-Powered Speaking Doll",
+    "description": "Babbl is an AI-powered interactive doll that engages your child in conversation.",
+    "keywords": "AI doll, interactive toy, smart doll, child development, parental controls, doll configuration, chat history, AI-powered speaking doll",
+    "ogTitle": "Babbl – AI-Powered Speaking Doll",
+    "ogDescription": "An interactive doll that talks with your child using AI.",
+    "ogSiteName": "Babbl",
+    "ogImageAlt": "Babbl AI Doll",
+    "twitterTitle": "Babbl – AI-Powered Speaking Doll",
+    "twitterDescription": "Talk, configure, and monitor: Babbl is a smart doll that interacts with your child through AI."
+  },
+
   "common": {
     "logoAlt": "Blue company logo with rounded font and icon, color #2264a8",
     "aboutUs": "About Us",
