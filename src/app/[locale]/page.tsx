@@ -22,12 +22,17 @@ const Home: React.FC = () => (
   </main>
 );
 
+export default Home;
+
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: "metadata" });
+  const t = await getTranslations({
+    locale: (await params).locale,
+    namespace: "metadata",
+  });
 
   return {
     title: t("title"),
@@ -56,5 +61,3 @@ export async function generateMetadata({
     },
   };
 }
-
-export default Home;
