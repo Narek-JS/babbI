@@ -2,9 +2,10 @@
 
 import { useLocale } from "next-intl";
 import { useState } from "react";
+
+import classNames from "classnames";
 import Image from "next/image";
 import Link from "next/link";
-import classNames from "classnames";
 
 const LanguageSwitcher: React.FC = () => {
   const locale = useLocale();

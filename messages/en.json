@@ -1,6 +1,150 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "common": {
+    "logoAlt": "Blue company logo with rounded font and icon, color #2264a8",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ourStory": "Our Story",
+    "configuration": "Configuration",
+    "grownUpStuff": "Grown Up Stuff",
+    "faqs": "FAQs",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "appStore": "App store",
+    "googlePlay": "Google play",
+    "curioInteractive": "© 2025 Curio Interactive Inc.",
+    "allRightsReserved": "All Rights Reserved."
+  },
+
+  "banner": {
+    "title": "AI-Powered Speaking Doll",
+    "description": "An interactive doll that talks with your child using AI.",
+    "bannerImageAlt": "3D cartoon girl character with brown pigtails and dress, on white background"
+  },
+
+  "video": {
+    "notSupportVideo": "Your browser does not support the video tag."
+  },
+
+  "configuration": {
+    "configurationImageAlt": "Configuration panel illustration showing customization options for a smart doll, including voice, language, and interaction settings",
+    "description": "Personalize your child’s experience by adjusting the doll’s voice, language, interaction style, and more. The easy-to-use configuration panel lets you fine-tune how the doll responds, creating a tailored and emotionally engaging companion that grows with your child’s needs."
+  },
+
+  "chatHistory": {
+    "title": "Chat History",
+    "description": "Keep track of your child’s conversations with the doll through an easy-to-use chat history feature. Review past interactions to stay informed, ensure a safe experience, and better understand how your child is engaging with their AI companion.",
+    "chatHistoryImageAlt": "Illustration of a chat history interface displaying past conversations between a child and their AI companion"
+  },
+
+  "slider": {
+    "title": "Featured In",
+
+    "text-1": "It’s cool, it’s like a combination of Teddy Ruxpin or a Furby... with a brain!",
+    "text-2": "It’s cool, it’s like a combination of Teddy Ruxpin or a Furby... with a brain!",
+    "text-3": "It’s cool, it’s like a combination of Teddy Ruxpin or a Furby... with a brain!",
+    "text-4": "It’s cool, it’s like a combination of Teddy Ruxpin or a Furby... with a brain!",
+    "text-5": "It’s cool, it’s like a combination of Teddy Ruxpin or a Furby... with a brain!",
+    "imageAlt-1": "Cartoon-style child holding a smart plush toy resembling a mix between Teddy Ruxpin and a Furby, expressing excitement",
+    "imageAlt-2": "Cartoon-style child holding a smart plush toy resembling a mix between Teddy Ruxpin and a Furby, expressing excitement",
+    "imageAlt-3": "Cartoon-style child holding a smart plush toy resembling a mix between Teddy Ruxpin and a Furby, expressing excitement",
+    "imageAlt-4": "Cartoon-style child holding a smart plush toy resembling a mix between Teddy Ruxpin and a Furby, expressing excitement",
+    "imageAlt-5": "Cartoon-style child holding a smart plush toy resembling a mix between Teddy Ruxpin and a Furby, expressing excitement"
+  },
+
+  "interactions": {
+    "title": "Manage Interactions with Ease",
+    "description": "Control the doll's interactions and monitor chat history through the companion app."
+  },
+
+  "faq": {
+    "title": "FAQs",
+    "question-1": "What's inside the Curio box?",
+    "answer-1": "Inside the Curio box, you will find the Curio toy itself, a user-friendly manual, charging cables, and a set of interactive cards that enhance the play experience. Additionally, there's a unique code to access online resources and updates.",
+
+    "question-2": "What age group are Curio toys designed for?",
+    "answer-2": "Curio toys are primarily designed for children aged 3 to 12 years old, but everyone can enjoy them, no matter their age!",
+
+    "question-3": "What languages are currently supported?",
+    "answer-3": "Currently, our toys are only available in English; however, we are working on expanding language support. You can purchase them now and update the language support later. Subscribe to our newsletter to stay updated!",
+
+    "question-4": "When should I expect to receive my toy?",
+    "answer-4": "For U.S. orders, toys can be expected to ship within 7 days. For international orders, we are unfortunately expecting a 3-5 month wait time while we ensure that we have all of our international certifications in order. Our deepest apologies for any inconvenience.",
+
+    "question-5": "Do you offer international shipping?",
+    "answer-5": "Yes, we currently offer international shipping to a wide range of countries and are working on expanding our reach. Please be aware that due to compliance reasons, the shipping timeframe for international orders is 3 to 5 months to reach the destination."
+  },
+
+  "privacy-policy": {
+    "privacyPolicy-title": "Privacy Policy",
+
+    "description-1": "At Secure Fences, your privacy is important to us. This Privacy Policy explains how we collect, use, and protect the personal information of visitors to our website. We are committed to handling your data with care, transparency, and respect.",
+    "title-1": "Information We Collect",
+    "description-2": "We collect the following types of information:",
+    "list_1-0": "Personal Information: This includes your name, email address, phone number, and any other details you provide when filling out a contact form, requesting a quote, or subscribing to updates.",
+    "list_1-1": "Non-Personal Information: When you visit our website, we automatically collect technical information such as your IP address, browser type, device information, and browsing activity.",
+    "title-2": "Cookies",
+    "description-3": "Secure Fences uses cookies to enhance your browsing experience and collect analytics data. Cookies are small files placed on your device that help us understand how visitors use our website. You can manage your cookie settings through your browser preferences.",
+    "title-3": "How We Use Your Information",
+    "list_2-0": "Respond to your questions, quote requests, or service inquiries.",
+    "list_2-1": "Send you updates, promotions, or newsletters if you’ve subscribed.",
+    "list_2-2": "Improve our website's performance, user experience, and security.",
+    "list_2-3": "Meet legal requirements and protect our rights and services.",
+    "title-4": "Sharing Your Information",
+    "description-4": "We may share personal information with trusted third-party partners who help us operate our website, manage communications, or support our business. These parties are obligated to protect your data and only use it for authorized purposes.",
+    "longDescription-1": "We may also disclose your information if required by law or to respond to legal processes such as subpoenas or court orders.",
+    "title-5": "External Links",
+    "description-5": "Our website may include links to third-party websites. We are not responsible for the privacy practices or content of those external sites.",
+    "title-6": "Data Security",
+    "description-6": "We take reasonable and appropriate measures to safeguard the personal information we collect. However, please note that no method of online transmission or storage is 100% secure.",
+    "title-7": "Updates to This Policy",
+    "description-7": "We may update this Privacy Policy occasionally to reflect changes in our practices or legal requirements. Any updates will be posted on this page, with the “Last Updated” date clearly indicated.",
+    "description-8": "If you have any questions or concerns about this Privacy Policy, please contact us."
+  },
+
+  "terms-conditions": {
+    "termsConditions-title": "Terms and Conditions",
+    "description-1": "These terms and conditions govern the use of babbl.ai and its companion applications. This platform is owned and operated by Babbl Technologies. It offers interactive AI-powered doll services designed to support and monitor children's conversations in a safe and configurable way.",
+    "description-2": "By using this site or interacting with the Babbl doll and app, you agree that you have read, understood, and accepted these terms and conditions. Continued use of our services implies your consent and compliance.",
+    "title-1": "Intellectual Property",
+    "description-3": "All content, features, and designs displayed on this site and in the Babbl application, including text, graphics, 3D models, logos, audio output, and interface elements, are the exclusive property of Babbl Technologies or its licensors.",
+    "title-2": "Acceptable Use",
+    "description-4": "You agree to use Babbl services responsibly and legally. You must not:",
+    "list_1-0": "Use the doll or app to engage in harmful, abusive, or exploitative communication;",
+    "list_1-1": "Tamper with or reverse-engineer the hardware or software;",
+    "list_1-2": "Bypass parental controls or alter speech limitations without permission;",
+    "list_1-3": "Upload malicious code or disrupt platform functionality.",
+    "longDescription-1": "Violations of these terms may result in the suspension of access to the app, deactivation of device features, or legal action where necessary.",
+    "title-3": "Accounts and Parental Responsibility",
+    "description-5": "By creating or managing an account, you agree to:",
+    "list_2-0": "Provide accurate and current information;",
+    "list_2-1": "Be responsible for all activity under your account;",
+    "list_2-2": "Monitor and configure the doll's settings as a parent or guardian.",
+    "longDescription-2": "We reserve the right to limit features or access if misuse or misrepresentation is detected.",
+    "title-4": "Service Usage",
+    "description-6": "Babbl provides configuration tools, chat history logging, and interaction customization through a secure companion app.",
+    "description-7": "Available features include:",
+    "list_3-0": "Real-time voice interaction between the doll and your child",
+    "list_3-1": "Parental control over doll behavior and responses",
+    "list_3-2": "Access to recorded chat history logs",
+    "longDescription-3": "Functionality may vary depending on the device model and app version. We continuously work to enhance features while maintaining safety and security.",
+    "description-8": "We reserve the right to modify or discontinue any feature without prior notice. Feature changes will be reflected in future versions of the app and firmware.",
+    "title-5": "Payments and Subscriptions",
+    "description-9": "Some features or updates may require a subscription or one-time payment. Accepted payment methods may include:",
+    "list_4-0": "Credit Card",
+    "list_4-1": "Digital Wallets",
+    "list_4-2": "App Store Purchases",
+    "longDescription-4": "By subscribing, you authorize Babbl Technologies to process charges via your chosen method. Subscription services will auto-renew unless canceled.",
+    "title-6": "Cancellation and Refunds",
+    "description-10": "Subscriptions can be canceled anytime through your app store or account dashboard. Refunds are subject to local consumer rights policies and may not be available for partially used subscription periods.",
+    "title-7": "Limitation of Liability",
+    "description-11": "Babbl Technologies is not liable for damages or losses resulting from improper use of the doll, unauthorized configuration changes, or technical interruptions. Parents and guardians are solely responsible for monitoring and managing the doll's interaction with their child.",
+    "title-8": "Indemnity",
+    "description-12": "By using Babbl’s services, you agree to indemnify and hold Babbl Technologies harmless from any claims or liabilities resulting from your misuse of the product or violation of these terms.",
+    "title-9": "Applicable Law",
+    "description-13": "These terms are governed by and interpreted in accordance with the laws of the jurisdiction in which Babbl Technologies operates, without regard to conflict of law principles.",
+    "title-10": "Severability",
+    "description-14": "If any part of these terms is deemed invalid or unenforceable, the remaining provisions will continue to be valid and enforceable.",
+    "title-11": "Amendments",
+    "description-15": "Babbl reserves the right to update or modify these terms at any time. Changes will be posted on our website and take effect immediately upon publication."
   }
 }

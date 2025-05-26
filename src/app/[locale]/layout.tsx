@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     url: "https://babbi.vercel.app",
     images: [
       {
-        url: "https://babbi.vercel.app/images/bannerImage.webp",
+        url: "https://babbi.vercel.app/images/bannerImage.png",
         width: 1200,
         height: 630,
         alt: "Babbl AI Doll",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "Babbl – AI-Powered Speaking Doll",
     description:
       "Talk, configure, and monitor: Babbl is a smart doll that interacts with your child through AI.",
-    images: ["https://babbi.vercel.app/images/bannerImage.webp"],
+    images: ["https://babbi.vercel.app/images/bannerImage.png"],
   },
 };
 

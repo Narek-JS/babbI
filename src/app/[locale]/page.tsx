@@ -5,7 +5,7 @@ import {
   BannerSection,
   SliderSection,
   VideoSection,
-  FaqsSrction,
+  FaqsSection,
 } from "@/components/sections";
 
 const Home: React.FC = () => (
@@ -16,7 +16,7 @@ const Home: React.FC = () => (
     <ChatHistorySection />
     <SliderSection />
     <InteractionsSection />
-    <FaqsSrction />
+    <FaqsSection />
   </main>
 );
 

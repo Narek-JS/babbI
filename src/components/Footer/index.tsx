@@ -1,8 +1,11 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer: React.FC = () => {
+const Footer: React.FC = async () => {
+  const t = await getTranslations("common");
+
   return (
     <footer className="w-full bg-[#262134] pb-5 pt-10" id="home">
       <div className="container mx-auto">
@@ -10,48 +13,48 @@ const Footer: React.FC = () => {
           <div className="w-full flex flex-wrap sm:flex-nowrap gap-8 justify-evenly sm:justify-between lg:justify-evenly">
             <div className="flex flex-col gap-3.5">
               <p className="text-[#FFFFFF] text-[16px] sm:text-[20px] md:text-[24px] lg:text-[26px] font-bold">
-                Our Story
+                {t("ourStory")}
               </p>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] md:text-[15px] lg:text-[16px] "
               >
-                About Us
+                {t("aboutUs")}
               </Link>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] "
               >
-                Contact Us
+                {t("contactUs")}
               </Link>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] "
               >
-                Configuration
+                {t("configuration")}
               </Link>
             </div>
             <div className="flex flex-col gap-3.5">
               <p className="text-[#FFFFFF] text-[16px] sm:text-[20px] md:text-[24px] lg:text-[26px] font-bold">
-                Grown Up Stuff
+                {t("grownUpStuff")}
               </p>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] md:text-[15px] lg:text-[16px] "
               >
-                FAQs
+                {t("faqs")}
               </Link>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] "
               >
-                Privacy Policy
+                {t("privacyPolicy")}
               </Link>
               <Link
                 href="/"
                 className="text-[#FFFFFF] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] "
               >
-                Terms & Conditions
+                {t("termsConditions")}
               </Link>
             </div>
             <div className="hidden sm:flex flex-col gap-3.5">
@@ -60,8 +63,8 @@ const Footer: React.FC = () => {
                 href="https://play.google.com/store/apps/details?id=com.facebook.katana"
               >
                 <Image
-                  alt="App store"
                   src="/images/app-store.webp"
+                  alt={t("appStore")}
                   width={142}
                   height={41}
                 />
@@ -71,8 +74,8 @@ const Footer: React.FC = () => {
                 href="https://play.google.com/store/apps/details?id=com.facebook.katana"
               >
                 <Image
-                  alt="Google play"
                   src="/images/google-play.webp"
+                  alt={t("googlePlay")}
                   width={142}
                   height={41}
                 />
@@ -97,7 +100,7 @@ const Footer: React.FC = () => {
               <Image
                 className="object-contain w-[250px] h-auto"
                 src="/images/logo.png"
-                alt="alt"
+                alt={t("logoAlt")}
                 height={75}
                 width={250}
               />
@@ -105,10 +108,10 @@ const Footer: React.FC = () => {
 
             <div className="flex flex-col items-center">
               <p className="text-[#FFFFFF] text-[13px] sm:text-[14px] opacity-75">
-                © 2025 Curio Interactive Inc.
+                {t("curioInteractive")}
               </p>
               <p className="text-[#FFFFFF] text-[13px] sm:text-[14px] opacity-75">
-                All Rights Reserved.
+                {t("allRightsReserved")}
               </p>
             </div>
           </div>
